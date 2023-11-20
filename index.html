@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./mainStyle.css">
     <!-- <script src=""></script> -->
     <title>Log in</title>
 </head>
@@ -23,36 +24,34 @@
 
     <main>
         <p class="prgText">This is not a real online service! You know you need something like this in your life
-        to help your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+        to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
         <p class="prgText">You <i>know</i> you want to.</p>
 
-        <div>
-            <form action="">
-                <div class="formBackground">
-                    <h3>Let's do this!</h3>
-                    <label for="firstName">FIRST NAME</label>
-                    <input id="firstName" type="text">
+        <form action="">
+            <div class="formBackground">
+                <h3>Let's do this!</h3>
+                <label for="firstName">FIRST NAME</label>
+                <input id="firstName" type="text">
 
-                    <label for="lastName">LAST NAME</label>
-                    <input id="lastName" type="text">
+                <label for="lastName">LAST NAME</label>
+                <input id="lastName" type="text">
 
-                    <label for="email">EMAIL</label>
-                    <input id="email" type="email">
+                <label for="email">EMAIL</label>
+                <input id="email" type="email">
 
-                    <label for="phoneNumber">PHONE NUMBER</label>
-                    <input id="phoneNumber" type="number">
+                <label for="phoneNumber">PHONE NUMBER</label>
+                <input id="phoneNumber" type="number">
 
-                    <label for="password">PASSWORD</label>
-                    <input id="password" type="password">
-                    <div id="errMessage"><sup>*</sup>Passwords do not match</div>
+                <label for="password">PASSWORD</label>
+                <input id="password" type="password">
+                <div id="errMessage"><sup>*</sup>Passwords do not match</div>
 
-                    <label for="passwordConf">CONFIRM PASSWORD</label>
-                    <input id="passwordConf" type="password">
+                <label for="passwordConf">CONFIRM PASSWORD</label>
+                <input id="passwordConf" type="password">
 
-                    <button id="accountButton" type="button">Create Account</button>
-                </div>
-            </form>
-        </div>
+            </div>
+            <button id="accountButton" type="button">Create Account</button>
+        </form>
         <p id="existentAcc" >Already have an account? <span>Log in</span></p>
     </main>
 </body>
