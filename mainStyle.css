@@ -43,6 +43,32 @@ form {
 .formColumn {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    width: 30%;
+}
+
+.formColumn > div {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    background-color: #fffefe;
+    /* border-radius: 10%; */
+    padding: 0.2rem;
+}
+
+input:focus {
+    border-color: #1d4ed8;
+    /* box-shadow: ; */
+    outline: none;
 }
 
 #errMessage {
