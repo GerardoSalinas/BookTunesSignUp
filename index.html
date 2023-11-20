@@ -12,8 +12,13 @@
         <img id="leafImage" src="./assets/halie-west-25xggax4bSA-unsplash.jpg" alt="">
         <div id="logoContainer">
             <img id="odinLogo" src="./assets/odin-lined.png" alt="Odin-logo">
+            <p id="odinTitle">ODIN</p>
         </div>
-        <p id="imgCredits" >Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+        <p id="imgCredits" >Photo by 
+            <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> 
+            on 
+            <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </p>
     </div>
 
     <main>
@@ -23,28 +28,29 @@
 
         <div>
             <form action="">
-                <h3>Let's do this!</h3>
-                <label for="firstName">FIRST NAME</label>
-                <input id="firstName" type="text">
+                <div class="formBackground">
+                    <h3>Let's do this!</h3>
+                    <label for="firstName">FIRST NAME</label>
+                    <input id="firstName" type="text">
 
-                <label for="lastName">LAST NAME</label>
-                <input id="lastName" type="text">
+                    <label for="lastName">LAST NAME</label>
+                    <input id="lastName" type="text">
 
-                <label for="email">EMAIL</label>
-                <input id="email" type="email">
+                    <label for="email">EMAIL</label>
+                    <input id="email" type="email">
 
-                <label for="phoneNumber">PHONE NUMBER</label>
-                <input id="phoneNumber" type="number">
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input id="phoneNumber" type="number">
 
-                <label for="password">PASSWORD</label>
-                <input id="password" type="password">
+                    <label for="password">PASSWORD</label>
+                    <input id="password" type="password">
+                    <div id="errMessage"><sup>*</sup>Passwords do not match</div>
 
-                <div id="errMessage" ><sup>*</sup>Passwords do not match</div>
+                    <label for="passwordConf">CONFIRM PASSWORD</label>
+                    <input id="passwordConf" type="password">
 
-                <label for="passwordConf">CONFIRM PASSWORD</label>
-                <input id="passwordConf" type="password">
-
-                <button id="accountButton" type="button" >Create Account</button>
+                    <button id="accountButton" type="button">Create Account</button>
+                </div>
             </form>
         </div>
         <p id="existentAcc" >Already have an account? <span>Log in</span></p>
