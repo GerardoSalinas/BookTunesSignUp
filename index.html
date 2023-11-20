@@ -29,26 +29,27 @@
 
         <form action="">
             <div class="formBackground">
-                <h3>Let's do this!</h3>
-                <label for="firstName">FIRST NAME</label>
-                <input id="firstName" type="text">
-
-                <label for="lastName">LAST NAME</label>
-                <input id="lastName" type="text">
-
-                <label for="email">EMAIL</label>
-                <input id="email" type="email">
-
-                <label for="phoneNumber">PHONE NUMBER</label>
-                <input id="phoneNumber" type="number">
-
-                <label for="password">PASSWORD</label>
-                <input id="password" type="password">
-                <div id="errMessage"><sup>*</sup>Passwords do not match</div>
-
-                <label for="passwordConf">CONFIRM PASSWORD</label>
-                <input id="passwordConf" type="password">
-
+                <h2>Let's do this!</h2>
+                <div class="columnContainer">
+                    <div class="formColumn">
+                        <label for="firstName">FIRST NAME</label>
+                        <input id="firstName" type="text">
+                        <label for="email">EMAIL</label>
+                        <input id="email" type="email">
+                        <label for="password">PASSWORD</label>
+                        <input id="password" type="password">
+                    </div>
+                    
+                    <div class="formColumn">
+                        <label for="lastName">LAST NAME</label>
+                        <input id="lastName" type="text">
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input id="phoneNumber" type="number">
+                        <div id="errMessage"><sup>*</sup>Passwords do not match</div>
+                        <label for="passwordConf">CONFIRM PASSWORD</label>
+                        <input id="passwordConf" type="password">
+                    </div>
+                </div>
             </div>
             <button id="accountButton" type="button">Create Account</button>
         </form>
