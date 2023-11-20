@@ -27,8 +27,14 @@ form {
 }
 
 .formBackground {
+    margin: 0px;
     background-color: white;
+    padding: 1.2rem 0rem 1.2rem 2rem;
     /* box-shadow: ; */
+}
+
+#errMessage {
+    display: none;
 }
 
 #accountButton {
