@@ -5,6 +5,7 @@ main {
     font-weight: 500;
     background-color: #f9fafb;
     padding-top: 4rem;
+    width: 67vw;
 }
 
 .prgText {
@@ -31,6 +32,17 @@ form {
     background-color: white;
     padding: 1.2rem 0rem 1.2rem 2rem;
     /* box-shadow: ; */
+}
+
+.columnContainer {
+    display: flex;
+    margin-top: 1rem;
+    gap: 70px;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
 }
 
 #errMessage {
