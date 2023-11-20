@@ -1,22 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 main {
     font-family: 'Roboto',sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     background-color: #f9fafb;
     padding-top: 4rem;
 }
 
 .prgText {
-
+    font-size: 1.3rem;
+    text-wrap: nowrap;
+    width: 50ch;
 }
 
-.prgText, #existentAcc {
+.prgText,.formBackground, #existentAcc,
+#accountButton {
     margin-left: 2rem;
+}
+
+form {
+    margin: 2.5rem 0rem  2rem 0rem;
 }
 
 .formBackground {
     background-color: white;
     /* box-shadow: ; */
 }
+
+#accountButton {
+    background-color: #596D48;
+    border: 0px;
+    border-radius: 0.5rem;
+    /* box-shadow: ; */
+    color: white;
+    margin-top: 2rem;
+    padding: 0.9rem 3rem;
+}
+
+#existentAcc > span{
+    color: #596D48;
+}
+
 
