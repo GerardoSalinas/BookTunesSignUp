@@ -31,7 +31,7 @@ form {
     margin: 0px;
     background-color: white;
     padding: 1.2rem 0rem 1.2rem 2rem;
-    /* box-shadow: ; */
+    box-shadow: 0px 10px 15px #dadbdc;
 }
 
 .columnContainer {
@@ -61,18 +61,27 @@ label {
 input {
     border: 1px solid #E5E7EB;
     background-color: #fffefe;
-    /* border-radius: 10%; */
+    border-radius: 0.2rem;
     padding: 0.2rem;
 }
 
 input:focus {
     border-color: #1d4ed8;
+    box-shadow: 5px 5px 5px #dadbdc;
+                /* 5px 0px 5px #dadbdc; */
     /* box-shadow: ; */
     outline: none;
 }
 
+input:invalid {
+    border-color: #b91c1c;
+}
+
 #errMessage {
-    display: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #b91c1c;
+    /* display: none; */
 }
 
 #accountButton {
@@ -89,4 +98,7 @@ input:focus {
     color: #596D48;
 }
 
-
+/* 
+#b91c1c  for input:invalid 
+#ca5555 for errMessage
+*/
