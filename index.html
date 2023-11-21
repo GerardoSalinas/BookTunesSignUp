@@ -34,15 +34,17 @@
                     <div class="formColumn">
                         <div>
                             <label for="firstName">FIRST NAME</label>
-                            <input id="firstName" type="text">
+                            <input id="firstName" type="text" minlength="3" maxlength="20">
+                            <!-- regex -->
                         </div>
                         <div>
                             <label for="email">EMAIL</label>
                             <input id="email" type="email">
+                            <!-- regex -->
                         </div>
                         <div>
                             <label for="password" >PASSWORD</label>
-                            <input id="password" type="password" required>
+                            <input id="password" type="password" required minlength="5" maxlength="14">
                             <div id="errMessage"><sup>*</sup>Passwords do not match</div>
                         </div>
                     </div>
@@ -50,15 +52,17 @@
                     <div class="formColumn">
                         <div>
                             <label for="lastName">LAST NAME</label>
-                            <input id="lastName" type="text">
+                            <input id="lastName" type="text" minlength="3" maxlength="20">
+                            <!-- regex -->
                         </div>
                         <div>
                             <label for="phoneNumber">PHONE NUMBER</label>
                             <input id="phoneNumber" type="text">
+                            <!-- regex -->
                         </div>
                         <div>
                             <label for="passwordConf">CONFIRM PASSWORD</label>
-                            <input id="passwordConf" type="password" required>
+                            <input id="passwordConf" type="password" required minlength="5" maxlength="14">
                         </div>
                     </div>
                 </div>
