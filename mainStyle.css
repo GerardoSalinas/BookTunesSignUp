@@ -68,8 +68,6 @@ input {
 input:focus {
     border-color: #1d4ed8;
     box-shadow: 5px 5px 5px #dadbdc;
-                /* 5px 0px 5px #dadbdc; */
-    /* box-shadow: ; */
     outline: none;
 }
 
@@ -88,7 +86,7 @@ input:invalid {
     background-color: #596D48;
     border: 0px;
     border-radius: 0.5rem;
-    /* box-shadow: ; */
+    box-shadow: 5px 5px 4px #dadbdc;
     color: white;
     margin-top: 2rem;
     padding: 0.9rem 3rem;
